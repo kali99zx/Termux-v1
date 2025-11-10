@@ -1,0 +1,40 @@
+cat <<EOF > index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thong Diep Bi Mat</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #ff69b4;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #ff1493;
+            animation: fadeIn 3s;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 20px;
+            animation: slideUp 4s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🌟 To Tinh Dành Cho Em! 🌟</h1>
+    <p>Cuoc song cua anh rat dep, nhung se dep hon neu co em ben canh.</p>
+    <p>Hay cho anh mot co hoi de chung minh tinh cam nay nhe?</p>
+    <p>Tra loi cho anh biet nhe! ❤️</p>
+</body>
+</html>
+EOF
